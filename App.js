@@ -46,8 +46,6 @@ export default function App() {
   function handleInput(keyboardPressed){
 
     if(keyboardPressed === "="){
-      console.log("Number")
-      console.log(currentNumber)
       setLastNumber(currentNumber + " = ")
       calculator()
       return
@@ -57,6 +55,7 @@ export default function App() {
       return
     }
     if(keyboardPressed === "DEL"){
+      setCurrentNumber(currentNumber.substring(0,(currentNumber.length - 1)))
       return
     }
     if(keyboardPressed === "."){
