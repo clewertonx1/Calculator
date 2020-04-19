@@ -20,22 +20,22 @@ export default function App() {
   function calculator(){
     const splitNumbers = currentNumber.split(" ")
     const operator = splitNumbers[1]
-
+    console.log(splitNumbers)
     if(operator === "*"){    
-      setCurrentNumber(parseInt(splitNumbers[0]) * parseInt(splitNumbers[2]))
+      setCurrentNumber(parseFloat(splitNumbers[0]) * parseFloat(splitNumbers[2]))
       return
     }
     if(operator === "/"){
-      setCurrentNumber(parseInt(splitNumbers[0]) / parseInt(splitNumbers[2]))
+      setCurrentNumber(parseFloat(splitNumbers[0]) / parseFloat(splitNumbers[2]))
       return
     }
     if(operator === "+"){
 
-      setCurrentNumber(parseInt(splitNumbers[0]) + parseInt(splitNumbers[2]))
+      setCurrentNumber(parseFloat(splitNumbers[0]) + parseFloat(splitNumbers[2]))
       return
     }
     if(operator === "-"){
-      setCurrentNumber(parseInt(splitNumbers[0]) - parseInt(splitNumbers[2]))
+      setCurrentNumber(parseFloat(splitNumbers[0]) - parseFloat(splitNumbers[2]))
       return
     }
     
@@ -59,6 +59,7 @@ export default function App() {
       return
     }
     if(keyboardPressed === "."){
+      setCurrentNumber(currentNumber + keyboardPressed) 
       return
     }
     if(keyboardPressed === "+/-"){
