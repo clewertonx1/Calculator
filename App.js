@@ -22,20 +22,20 @@ export default function App() {
     const operator = splitNumbers[1]
     console.log(splitNumbers)
     if(operator === "*"){    
-      setCurrentNumber(parseFloat(splitNumbers[0]) * parseFloat(splitNumbers[2]))
+      setCurrentNumber((parseFloat(splitNumbers[0]) * parseFloat(splitNumbers[2])).toString())
       return
     }
     if(operator === "/"){
-      setCurrentNumber(parseFloat(splitNumbers[0]) / parseFloat(splitNumbers[2]))
+      setCurrentNumber((parseFloat(splitNumbers[0]) / parseFloat(splitNumbers[2])).toString())
       return
     }
     if(operator === "+"){
 
-      setCurrentNumber(parseFloat(splitNumbers[0]) + parseFloat(splitNumbers[2]))
+      setCurrentNumber((parseFloat(splitNumbers[0]) + parseFloat(splitNumbers[2])).toString())
       return
     }
     if(operator === "-"){
-      setCurrentNumber(parseFloat(splitNumbers[0]) - parseFloat(splitNumbers[2]))
+      setCurrentNumber((parseFloat(splitNumbers[0]) - parseFloat(splitNumbers[2])).toString())
       return
     }
     
@@ -55,6 +55,7 @@ export default function App() {
       return
     }
     if(keyboardPressed === "DEL"){
+      console.log(currentNumber)
       setCurrentNumber(currentNumber.substring(0,(currentNumber.length - 1)))
       return
     }
@@ -63,6 +64,7 @@ export default function App() {
       return
     }
     if(keyboardPressed === "+/-"){
+
       return
     }
     if(keyboardPressed === "AC"){
