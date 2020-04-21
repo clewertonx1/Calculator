@@ -16,6 +16,12 @@ mobile device to better understand basic functionality and edge cases.
 
 - You may not use the `eval()` function to execute calculations
 
+### Final Result: 
+
+<img src="https://user-images.githubusercontent.com/48888681/79881783-0c394880-83c8-11ea-8934-01addc62ca5b.jpg" width="270" height="480">
+
+
+
 ## User Stories
 
 -   [x] User can see a display showing the current number entered or the
