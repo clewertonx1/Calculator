@@ -2,6 +2,7 @@
 
 **Tier:** 1-Beginner
 idea from: https://github.com/florinpop17/app-ideas
+preview: https://expo.io/@clewertonx1/Calculator
 
 Calculators are not only one of the most useful tools available, but they are
 also a great way to understand UI and event processing in an application. In
