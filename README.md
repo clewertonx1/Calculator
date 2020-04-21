@@ -18,7 +18,9 @@ mobile device to better understand basic functionality and edge cases.
 
 ### Final Result: 
 
-<img src="https://user-images.githubusercontent.com/48888681/79881783-0c394880-83c8-11ea-8934-01addc62ca5b.jpg" width="270" height="480">
+:
+<img src="https://user-images.githubusercontent.com/48888681/79881783-0c394880-83c8-11ea-8934-01addc62ca5b.jpg" width="270" height="585">
+<img src="https://user-images.githubusercontent.com/48888681/79883392-3d1a7d00-83ca-11ea-9646-477aaa5e1b06.gif" width="270" height="585">
 
 
 
